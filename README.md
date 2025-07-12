@@ -13,7 +13,7 @@ A simple and responsive image search web application built using HTML, CSS, and 
 ### Setup Instructions
 
 1. Clone the repository<br>
-   git clone https://github.com/your-username/image-search-app.git<br>
+   git clone https://github.com/your-username/image-search-webApp.git<br>
 
 2. Get Your Unsplash API Key<br>
    Go to Unsplash Developer<br>
