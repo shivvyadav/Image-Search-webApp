@@ -4,8 +4,24 @@ A simple and responsive image search web application built using HTML, CSS, and 
 
 ## Features
 
-Search for high-quality images from Unsplash
-Displays 12 images per page
-"Load More" button to fetch additional results
-Responsive layout using cards
-Handles empty input by defaulting to "nature" search
+-Search for high-quality images from Unsplash<br>
+-Displays 12 images per page<br>
+-"Load More" button to fetch additional results<br>
+-Responsive layout using cards<br>
+-Handles empty input by defaulting to "nature" search<br>
+
+### Setup Instructions
+
+1. Clone the repository<br>
+   git clone https://github.com/your-username/image-search-app.git<br>
+
+2. Get Your Unsplash API Key<br>
+   Go to Unsplash Developer<br>
+
+### Create a new app to get your Access Key
+
+3. Add Your API Key<br>
+   In your JavaScript file, replace apiKey with your actual key:<br>
+
+const apiKey = "YOUR_UNSPLASH_ACCESS_KEY";<br>
+Make sure this line is declared above your fetchImages() function call.<br>
