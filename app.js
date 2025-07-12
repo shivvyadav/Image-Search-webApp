@@ -46,3 +46,26 @@ async function fetchImages() {
     console.error("Error fetching images:", error);
   }
 }
+
+searchForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  // Reset page number on new search
+  page = 1;
+  fetchImages();
+});
+
+loadMoreBtn.addEventListener("click", () => {
+  page++;
+  fetchImages();
+});
+
+// Add event listener to the input box for Enter key
+inputBox.addEventListener("keypress", (e) => {
+  if (e.key === "Enter") {
+    // Prevent form submission
+    e.preventDefault();
+    // Reset page number on new search
+    page = 1;
+    fetchImages();
+  }
+});
